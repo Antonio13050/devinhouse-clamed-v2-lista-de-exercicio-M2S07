@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/veiculosdb
+    username: postgres
+    password: de13050*
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  properties:
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      format_sql: true
